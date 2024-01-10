@@ -19,8 +19,14 @@ body1{
     animation:rotate 35s linear infinite;
   }
   
-  @keyframes rotate{
+  
     from{
+      transform:perspective(1200px) rotateY(0deg);
+    }
+    
+    to{
+      transform:perspective(1200px) rotateY(360deg);
+    }{
       transform:perspective(1200px) rotateY(0deg);
     }
     
